@@ -1,0 +1,486 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,400,700,900');
+
+.controlLock{
+  /*background: rgba(0,0,0,0.8);*/
+  z-index: 99999;
+  position: fixed; height: 100%; width: 100%;
+}
+
+.vibentoLogin input[type="text"], .vibentoLogin input[type="password"]{
+  width: 300px;
+  padding: 6px 10px;
+  border: 2px solid #c3c3c3;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.vibentoLogin .vib-form-buttons {
+  padding: 0 20px;
+  box-sizing: border-box;
+  width: 60%;
+  margin: 0px auto !important;
+  position: relative;
+  height: auto;
+  overflow: auto;
+}
+
+.vibentoLogin button{
+  border-radius: 6px !important;
+  border: 1px solid #bbbbbb !important;
+}
+
+.vibentoLogin #vib-cancel-login{
+  background-color: #d8d8d8 !important;
+  color: #999;
+}
+
+.vibentoLogin .form{
+  position: relative;
+  height:215px;
+  padding: 27px 20px !important;
+}
+
+.vibentoLogin .vib-form-new-user{
+  margin-top: 24px !important;
+  font-size: 16px;
+  color: #a7a7a7;
+  font-weight: bold;
+}
+
+.vibentoLogin .vib-form-new-user a{
+  color: #a7a7a7;
+}
+
+.vibentoLogin .vib-form-status { height: auto;
+  min-height:16px;}
+/* CREATE NEW CATEGORY */
+
+
+.vibentoOverlay .clearfix { width: 100%; clear: both !important;}
+.vib-part { float: left; padding: 2%;
+  height:250px;}
+.vib-left { width: 36%; border-right: 0px solid #BCBCBC;}
+.vib-right { width: 55%;
+  position: relative; }
+
+.vib-form-goPro{
+  margin-top: 55px !important;
+  font-size: 16px;
+  color: #a7a7a7;
+  font-weight: bold;
+}
+
+.vib-form-goPro a{
+  color: #a7a7a7;
+  text-decoration: underline;
+}
+
+.vib-new-cat{
+  margin-top: 50px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #838383;
+}
+
+
+/* SAVE THIS VIDEO */
+.vib-form-heading h2{
+  font-size:14px;
+  color: grey;
+}
+/* Login */
+.vib-form-heading h3{
+  font-size:22px;
+  color: grey;
+}
+
+/* FIELD NEW PLAYLIST */
+.vib-new-cat-add input{
+  width: 100%;
+  border: 1px solid #BCBCBC;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* SAVED MESSAGE */
+
+.form .vib-form-status p{
+  margin:0;
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-align: center;
+  background: #FF4000;
+  border-radius: 35px;
+  position: relative;
+  top: 220px;
+}
+
+/* CHOOSE CATEGORY */
+.vib-form-cat div:first-child, .vib-new-cat-add div:first-child{
+  display: block;
+  margin: 0 0 8px;
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  text-align: left;
+  color: #838383;
+}
+.vib-new-cat img{
+  float: left;
+}
+.vib-form-buttons{
+  text-align: right;
+  position: absolute;
+  width: 94%;
+  bottom: 0px;
+  right: 5px;
+}
+.vib-form-buttons button{
+  margin:0;
+  border-radius: 4px;
+}
+/*.formContainer .cont > div:last-child {
+  width: 70%;
+}*/
+.formContainer .cont select{
+  padding:5px;
+  width:100%;
+  border:1px solid #BCBCBC;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.video-title {
+  display: none;}
+
+.page-2 .vib-form-buttons {     margin-top: 185px;}
+
+#vib-go-back {
+  background-color: #F7F7F7 !important;
+  color: #666666 !important;
+  float: left;}
+
+.vib-form-heading{
+  text-align: left;
+}
+
+.vib-logo{
+  text-align: left;
+}
+
+#closeOverlay { width:30px;
+  height:30px;
+  float: right;}
+
+#player:hover .buttonContainer{
+  opacity: 1;
+  -webkit-transition:  0.5s;
+  -moz-transition:  0.5s;
+  -ms-transition:  0.5s;
+  -o-transition:  0.5s;
+  transition:  0.5s;
+}
+
+/* CSS For Button Start */
+.buttonContainer{
+  width:100%;
+  z-index : 6;
+  position : absolute;
+  top : 3px;
+  left: 3px;
+  text-align: left;
+  opacity : 0;
+  -webkit-transition:  0.5s;
+  -moz-transition:  0.5s;
+  -ms-transition:  0.5s;
+  -o-transition:  0.5s;
+  transition:  0.5s;
+}
+.vib-close-btn{
+  cursor: pointer;
+}
+._53j5:hover .buttonContainer{
+  opacity: 1;
+  -webkit-transition:  0.5s;
+  -moz-transition:  0.5s;
+  -ms-transition:  0.5s;
+  -o-transition:  0.5s;
+  transition:  0.5s;
+}
+
+._6n_:hover .buttonContainer{
+  opacity: 1;
+  -webkit-transition:  0.5s;
+  -moz-transition:  0.5s;
+  -ms-transition:  0.5s;
+  -o-transition:  0.5s;
+  transition:  0.5s;
+}
+
+._3x-2:hover .buttonContainer{
+  opacity: 1;
+  -webkit-transition:  0.5s;
+  -moz-transition:  0.5s;
+  -ms-transition:  0.5s;
+  -o-transition:  0.5s;
+  transition:  0.5s;
+}
+
+._38a2:hover .buttonContainer{
+  opacity: 1;
+  -webkit-transition:  0.5s;
+  -moz-transition:  0.5s;
+  -ms-transition:  0.5s;
+  -o-transition:  0.5s;
+  transition:  0.5s;
+}
+
+.vibentoBtn{
+  cursor: pointer;
+  float: left;
+}
+
+/* for vimeo */
+.iris_p_infinite__item { position: relative; }
+.iris_p_infinite__item:hover .buttonContainer{
+  opacity: 1;
+  -webkit-transition:  0.5s;
+  -moz-transition:  0.5s;
+  -ms-transition:  0.5s;
+  -o-transition:  0.5s;
+  transition:  0.5s;
+}
+
+.clip_main .player.js-player:hover .buttonContainer{
+  opacity: 1;
+  -webkit-transition:  0.5s;
+  -moz-transition:  0.5s;
+  -ms-transition:  0.5s;
+  -o-transition:  0.5s;
+  transition:  0.5s;
+}
+
+.browse_videos_videos li .data:hover .buttonContainer{
+  opacity: 1;
+  -webkit-transition:  0.5s;
+  -moz-transition:  0.5s;
+  -ms-transition:  0.5s;
+  -o-transition:  0.5s;
+  transition:  0.5s;
+}
+
+
+
+
+/* CSS For Button End */
+
+/* CSS For Overlay Start */
+.vibentoOverlay{
+  font-family: 'Lato', sans-serif;
+  position: fixed;
+  text-align: center;
+  z-index: 999;
+  top:0;
+  left:0;
+  width:100%;
+  /*height:100%;*/
+  position:absolute;
+  background: rgba(0,0,0,0.6);
+}
+.vibentoOverlay .formContainer{
+  position: fixed;
+  margin:100px auto;
+  width: 100%;
+  display: block;
+}
+.formContainer .form{
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding:20px;
+  display: block;
+  margin:0px auto;
+  border-radius: 10px;
+  width: 400px;
+  background: #fff;
+  font-family: 'Lato', sans-serif !important;
+}
+.formContainer .form * {
+  outline: 0 !important;
+}
+.formContainer .form .vib-logo{
+  width:50%;
+  margin-bottom:10px;
+  float: left;
+}
+.formContainer .form .vib-logo img{
+  width:150px;
+}
+
+.vibentoLogin .cont{
+  margin:5px 0px;
+}
+
+.vibentoLogin .vib-logo { width: 100% !important; text-align: center; }
+.vibentoLogin .vib-form-heading { text-align: center; }
+
+/*.formContainer .cont > div {
+  width: 50%;
+  padding: 10px 0px;
+  display: inline-block;
+  text-align: left;
+}*/
+.form label { font-size: 14px; }
+.formContainer .cont > div:first-child {
+  width: 100%;
+  font-size:14px;
+  font-weight:bold;
+}
+
+/*.video-info > div {
+  width: 50% !important;
+}*/
+.video-thumb {
+  width: 140px;
+  height: 90px;
+}
+
+.video-info > div > *{
+  width:140px;
+  height: 90px;
+}
+.video-info h1{
+  padding: 0px;
+}
+.video-title{
+  vertical-align: top;
+}
+
+
+.vib-form-tit, .vib-form-src{
+  display: none;
+}
+.vib-form-buttons button{
+  width:39% !important;
+  padding: 6px 0px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #008D00 !important;
+  color: #ffffff;
+  border:none;
+  -webkit-transition:  0.5s;
+  -moz-transition:  0.5s;
+  -ms-transition:  0.5s;
+  -o-transition:  0.5s;
+  transition:  0.5s;
+}
+.vib-form-buttons button:hover{
+  opacity:0.8;
+  -webkit-transition:  0.5s;
+  -moz-transition:  0.5s;
+  -ms-transition:  0.5s;
+  -o-transition:  0.5s;
+  transition:  0.5s;
+}
+.form > *:not(h1):not(div) {
+  width:150px;
+  margin:10px auto;
+  padding:0px;
+  border: 1px color: #ffffff;;
+}
+.form button{
+  width:50%;
+  background: none;
+}
+.form .vib-form-status{
+  min-height:16px;
+}
+
+.form .vib-form-url{
+  display: none;
+}
+.vib-new-cat, .form .cont button{
+  cursor: pointer;
+}
+
+
+.form .page-2{
+  display: none;
+}
+
+/*.form h1{
+  margin-bottom: 10px;
+}
+.form select{
+  width: 80%;
+}
+.form input{
+  width: 80%;
+}*/
+/* CSS For Overlay End */
+
+
+/* Drop down list */
+/* -------------------- Page Styles (not required) */
+select {
+
+  /* styling */
+  background-color: #FBFBFB;
+  border: thin solid blue;
+  border-radius: 5px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+
+  /* reset */
+
+  margin: 0;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+
+/* arrows */
+
+select.custom {
+  background-image:
+    linear-gradient(45deg, transparent 50%, #F0F0F0 50%),
+    linear-gradient(135deg, #F0F0F0 50%, transparent 50%),
+    linear-gradient(to right, lightgray, lightgray);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    3em 2.5em;
+  background-repeat: no-repeat;
+}
+
+select.custom:focus {
+  background-image:
+    linear-gradient(45deg, lightgray 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, lightgray 50%),
+    linear-gradient(to right, #F0F0F0, #F0F0F0);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    3em 2.5em;
+  background-repeat: no-repeat;
+  border-color: grey;
+  outline: 0;
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Tickit",
+  "short_name" : "Tickit",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": " ",
+  "icons": {
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "scripts/jquery-2.1.4.js",
+      "scripts/background.js"
+    ]
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "*://*/*"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "19": "images/icon-19.png",
+      "38": "images/icon-38.png"
+    },
+    "default_title": "Tickit",
+    "default_popup": "popup.html"
+  },
+  "content_scripts":[
+    {
+      "matches": ["*://facebook.com/*", "*://www.facebook.com/*", "*://web.facebook.com/*", "*://youtube.com/*", "*://www.youtube.com/*", "*://vimeo.com/*", "*://www.vimeo.com/*"],
+      "js": ["scripts/jquery-2.1.4.js","scripts/fb-script-3.js", "scripts/jquery.fitvids.js", "scripts/jquery.customSelect.min.js"],
+      "css": ["styles/fb-styles.css", "styles/default.css", "styles/reset.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": ["images/vibentoLoader.gif", "images/button.png", "images/logo-black.png", "images/logo.png", "images/plus-icon.png", "images/close-btn-bg.png", "images/video-thumb1.png"]
+}
